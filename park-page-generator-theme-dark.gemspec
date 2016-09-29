@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "park-page-generator-theme-dark"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["Travis Rasor"]
   spec.email         = ["tlrasor@gmail.com"]
 
-  spec.summary       = %q{A jekyll theme for domain parker pages}
+  spec.summary       = %q{A jekyll theme for parker page generator}
   spec.homepage      = "https://github.com/tlrasor/park-page-generator-theme-dark"
   spec.license       = "MIT"
 
