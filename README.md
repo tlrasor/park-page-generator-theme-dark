@@ -2,15 +2,18 @@
 title: park-page-generator-theme-dark
 description: Dark theme for park page generator
 author: Travis Rasor
-tags: park-page-generator,dark-theme
-colors: dark, yellow
-created:  2016-10-01
+tags: 'park-page-generator,dark-theme'
+colors: 'dark, yellow'
+created: {}
+published: true
 ---
 
 park-page-generator-theme-dark
 ========
 
 This is the dark theme for [park-page-generator](https://github.com/tlrasor/park-page-generator)
+
+![Screenshot](https://github.com/tlrasor/park-page-generator-theme-dark/raw/master/screenshot.png)
 
 ## Installation
 
@@ -57,4 +60,3 @@ Development is the same as any [Jekyll Theme](https://jekyllrb.com/docs/themes/)
 Available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 This work is based on the "Dark Night" page by [Anish Trehan](http://www.successagency.com/in/author/anishtrehan/)
-
