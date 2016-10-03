@@ -1,13 +1,3 @@
----
-title: park-page-generator-theme-dark
-description: Dark theme for park page generator
-author: Travis Rasor
-tags: 'park-page-generator,dark-theme'
-colors: 'dark, yellow'
-created: {}
-published: true
----
-
 park-page-generator-theme-dark
 ========
 
