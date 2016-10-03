@@ -1,6 +1,16 @@
-# park-page-generator-theme-dark
+---
+title: park-page-generator-theme-dark
+description: Dark theme for park page generator
+author: Travis Rasor
+tags: park-page-generator,dark-theme
+colors: dark, yellow
+created:  2016-10-01
+---
 
-This is the dark theme for [park-pages-generator](https://github.com/tlrasor/park-page-generator)
+park-page-generator-theme-dark
+========
+
+This is the dark theme for [park-page-generator](https://github.com/tlrasor/park-page-generator)
 
 ## Installation
 
@@ -36,12 +46,11 @@ This theme will respond to the following configuration options:
 Bug reports and pull requests are welcome on GitHub at https://github.com/tlrasor/park-page-generator-theme-dark. 
 
 ## Development
+Development is the same as any [Jekyll Theme](https://jekyllrb.com/docs/themes/):
 
-To set up your environment to develop this theme, run `bundle install`.
-
-You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+> To set up your environment to develop this theme, run `bundle install`.
+> You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+> When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
 ## License
 

@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="shim"></div>
 <div class="content">
-  <div class="logo_box"><h1>{{site.title  | default: site.data.default_title }}</div>          
+  <div class="logo_box">
+    <h1>{{site.title  | default: site.data.default_title }}</h1>
+  </div>          
   <div class="main_box">
     <h2>
       {{site.description  | default: site.data.default_description }}
@@ -20,15 +22,25 @@ layout: default
         </p>
       </li>
       {% endif %}
-      {% if site.twitter_username or site.facebook_username or site.linkedin_username %}
+      {% if site.twitter.username or site.facebook.username or site.linkedin_username %}
       <li>
         <h3>Social media</h3>
         <p class="social">  
-        {% if site.twitter_username %}
-          <a href="https://twitter.com/{{ site.twitter_username }}" class="tw"></a>
+        {% if site.twitter.username %}
+          <a href="https://twitter.com/{{ site.twitter_username }}" class="social_icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
         {% endif %}
-        {% if site.facebook_username %}
-          <a href="https://www.facebook.com/{{ site.facebook_username }}" class="fb"></a>
+        {% if site.facebook.username %}
+          <a href="https://www.facebook.com/{{ site.facebook_username }}" class="social_icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
         {% endif %}
         </p>
       </li>

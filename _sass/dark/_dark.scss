@@ -86,6 +86,9 @@ height: auto;
   border-right: 1px solid #303030;
   height: 280px;
   position: relative;
+  h1 {
+    margin-left: 10px;
+  }
 }
 
 h1 {
@@ -184,50 +187,13 @@ ul.info {
       margin: 0;
       &.social a {
         &.email {
-          width: 28px;
+          width: 200px;
           height: 28px;
-          font-size: 16px;
+          padding-top: 10px;
+          font-size: 18px;
           font-family: Georgia;
           color: #ffe400;
           margin-right: 8px;
-          float: left;
-        }
-        &.tw {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) left top no-repeat;
-          margin-right: 8px;
-          float: left;
-        }
-        &.fb {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) -36px top no-repeat;
-          float: left;
-          margin-right: 8px;
-        }
-        &.li {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) -72px top no-repeat;
-          float: left;
-        }
-        &.tw:hover {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) left bottom no-repeat;
-          float: left;
-        }
-        &.fb:hover {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) -36px bottom no-repeat;
-          float: left;
-        }
-        &.li:hover {
-          width: 28px;
-          height: 28px;
-          background: url(../images/social.png) -72px bottom no-repeat;
           float: left;
         }
       }
