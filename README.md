@@ -14,7 +14,22 @@ And regenerate the site.
 
 ## Usage
 
-Sets up the head using /css/main.css as the root stylesheet. Exposes the "dark" scss file for imports into said main.scss file.
+By default, the only step required is the above. The jekyll project is set up using /css/theme.css as the root stylesheet.
+
+## Configuration
+
+This theme will respond to the following configuration options:
+
+| Property        | Use         | Required         |
+| ------------- |:-------------:|:--------------:|
+| title     | Title of the site and main text on page | no |
+| email      | Used to generate a contact link | yes |
+| description | Used for generating the site head tags for SEO | no |
+| call_to_action | Below description, invites users to contact using configured methods | no |
+| facebook_username | Creates a button to your facebook page | no |
+| twitter_username | Creates a button to your twitter page | no |
+| google_analytics | Add your GA code here for analytics | no |
+
 
 ## Contributing
 
@@ -30,5 +45,7 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+This work is based on the "Dark Night" page by [Anish Trehan](http://www.successagency.com/in/author/anishtrehan/)
 

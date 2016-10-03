@@ -5,6 +5,23 @@
   <meta name="keywords" content="{{keywords | join: ',' }}" />
   <link rel="shortcut icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme:800" rel="stylesheet">
   <!--[if lte IE 8]><script src="/assets/js/html5shiv.js" type="text/javascript"></script><![endif]-->
-  {% seo %}
+  <title>{{site.title  | default: site.data.default_description }}</title>
+  <meta property="og:title" content="{{site.title | default: site.data.default_title }}">
+  <meta name="description" content="{{site.description | default: site.data.default_description }}">
+  <meta property="og:description" content="{{site.description | default: site.data.default_description }}">
+  <link rel="canonical" href="{{ site.url | append: site.baseurl }}">
+  <meta property="og:url" content="site.url | append: site.baseurl">
+  <meta property="og:site_name" content="{{site.title | default: site.data.default_title }}">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "{{site.title | default: site.data.default_title }}",
+      "headline": "{{site.title | default: site.data.default_title }}",
+      "description": "{{site.description | default: site.data.default_description }}",
+      "url": "{{site.url | append: site.baseurl}}"
+    }
+  </script>
 </head>
